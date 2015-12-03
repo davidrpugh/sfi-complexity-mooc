@@ -20,8 +20,8 @@ Lot's of previous work by Doyne and co-conspirators...
 ### Businesss Cycles
 For me, key papers in business cycles are...
 
-* X. Gabaix, **Granular origins of aggregate fluctuations.***
-* D. Acemoglu et al, **Network origins of aggregate fluctuations.***
+* X. Gabaix, *Granular origins of aggregate fluctuations.*
+* D. Acemoglu et al, *Network origins of aggregate fluctuations.*
 
 ...these papers are too technical for our target audience.  Can we find a way to simplify the presentation of the key ingredients?
 
