@@ -1,6 +1,8 @@
 # Organizing principle: "Micro-motives of macro-behavior" (stolen from T. Schelling)
 A Python-based course on Complexity Economics
 
+Need to figure out a way to incorporate ScalABM to some extent. Possibly have some web applictation running interesting model on AWS that students can interact. Fabulous opportunity to build user community...
+
 ## Topics
 First attempt to list a broad set of topics that we would like to cover during the course. *These topics are not listed in any particular order*!
 
