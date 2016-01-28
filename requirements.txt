@@ -1,2 +1,0 @@
-seaborn
-git+https://github.com/ipython/ipywidgets.git

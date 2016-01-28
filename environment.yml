@@ -1,0 +1,9 @@
+name: sfi-complexity-economics
+
+dependencies:
+  - python=3.5
+  - ipywidgets
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
