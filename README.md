@@ -1,3 +1,5 @@
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/davidrpugh/sfi-complexity-mooc)
+
 # Organizing principle: "Micro-motives of macro-behavior" (stolen from T. Schelling)
 A Python-based course on Complexity Economics
 
