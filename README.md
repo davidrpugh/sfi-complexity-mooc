@@ -1,6 +1,6 @@
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/davidrpugh/sfi-complexity-mooc)
 
-# Santa Fe Institute (SFI) Complexity Economics MOOC (Fall 2016)
+# Santa Fe Institute (SFI) Complexity Economics MOOC
 
 Instructors: Prof. J. Doyne Farmer and Dr. David R. Pugh (and co-conspirators!)
 
@@ -20,20 +20,20 @@ Introductory video providing clear explanation of what complexity economics is (
 * Primer on power laws.
 * Primer on dynamical systems.
 * Primer on basic network theory.
-* Primer on use of Jupyter notebooks in the cloud (include pointers to instructions for installing software including on where to go to learn more about best-practices for scientific computing; no support for software install will be given!).
+* Primer on use of Jupyter notebooks in the cloud (include pointers to instructions for installing software including on where to go to learn more about [best-practices for scientific computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745); no support for software install will be given!).
 
 Also we will need to leave time to cover usual course logistics.
 
 # Lecture 2: Networks
-Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API.
+Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Do simpler alternatives exist? Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API.
 
 **Can we tie in what we are doing in this lecture to the other Complexity Explorer MOOC on Dynamics of Complex Networks?**
 
 # Lecture 3: Business Cycles
-Key idea: business cycles are fundamentally endogenous phenomena and are not driven by exogenous shocks as is typically (but not always!) assumed in mainstream approaches.
+Key idea: business cycles are fundamentally endogenous phenomena and are not driven by exogenous shocks as is typically (but not always!) assumed in mainstream approaches.  Models of "Predator-prey" dynamics.
 
 # Lectures 4 and 5: Growth and Innovation
-Will use the Solow growth model as point of departure.  Will need to explain the basic idea behind the model to non-economics audience.  Solow model can be used to motivate the importance of explicitly modeling the process of technological innovation.
+Will use the Solow growth model as point of departure for lecture 4  Will need to explain the basic idea behind the model to non-economics audience. Solow model can be used to motivate the importance of explicitly modeling the process of technological innovation.
 
 Evolutionary view of technological progress. See W. Brian Arthur’s Nature of Technology.  We should ask Brian if he would be interested in giving some parts of lectures 4 and 5.
 
@@ -45,6 +45,8 @@ Motivated by the work of Cars Hommes on experimental models of expectations form
 
 # Lecture 8: Game Theory
 Obvious ties with the mainstream literature.  Motivated by recent (and ongoing) work of Farmer & Galla.  Key idea: learning and convergence to “equilibrium”. When and under what circumstances do learning rules lead to a convergence to Nash-like equilibrium in games.
+
+Iterated Prisoner's dilemma tournament using code from Alan Isaac's [Simulating Evolutionary Games: A Python-Based Introduction(http://jasss.soc.surrey.ac.uk/11/3/8.html).  Perhaps could make use of Luzius's code to run the tournament.  Each student would submit a simple Python agent with a particular strategy and then we would run face them off against one another.
 
 # Lectures 9: Inequality
 Sugarscape-esque simulations to demonstrate conditions for skewed distributions of wealth.  Can be tied to Edgeworth Box diagrams.  Contrast the robustness of the first welfare theorem, with the fragility of the second welfare theorem.
@@ -87,7 +89,7 @@ Complex systems models: smart people with less than perfect foresight
 
 
 ## Additional teaching resources
-Leigh Tesfatsion’s excellent website.  We need to find a way to include more of her work into the course!!!!
+Leigh Tesfatsion’s [excellent website](http://www2.econ.iastate.edu/tesfatsi/ace.htm).  We need to find a way to include more of her work into the course!!!!
 
 
 ### Inequality
