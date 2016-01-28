@@ -1,6 +1,6 @@
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/davidrpugh/sfi-complexity-mooc)
 
-# Santa Fe Institute (SFI) Complexity Economics MOOC
+# SFI Complexity Economics MOOC
 
 Instructors: Prof. J. Doyne Farmer and Dr. David R. Pugh (and co-conspirators!)
 
@@ -90,15 +90,3 @@ Complex systems models: smart people with less than perfect foresight
 
 ## Additional teaching resources
 Leigh Tesfatsion’s [excellent website](http://www2.econ.iastate.edu/tesfatsi/ace.htm).  We need to find a way to include more of her work into the course!!!!
-
-
-### Inequality
-Sugscape-esque simulations to demonstrate conditions for skewed distributions of wealth.  Can be tied  to Edgeworth Box diagrams.  Contrast the robustness of the first welfare theorem, with the fragility of the second welfare theorem.
-
-
-### Behavioral Economics
-Tons of material to cover her...
-
-* Bounded rationality (H. Simon and descendents!)
-* Learning
-
