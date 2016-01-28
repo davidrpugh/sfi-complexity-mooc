@@ -1,35 +1,94 @@
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/davidrpugh/sfi-complexity-mooc)
 
-# Organizing principle: "Micro-motives of macro-behavior" (stolen from T. Schelling)
-A Python-based course on Complexity Economics
+# Santa Fe Institute (SFI) Complexity Economics MOOC (Fall 2016)
 
-Need to figure out a way to incorporate ScalABM to some extent. Possibly have some web applictation running interesting model on AWS that students can interact. Fabulous opportunity to build user community...
+Instructors: Prof. J. Doyne Farmer and Dr. David R. Pugh (and co-conspirators!)
 
-## Topics
-First attempt to list a broad set of topics that we would like to cover during the course. *These topics are not listed in any particular order*!
+From one of Gabby’s previous emails…
 
-### Power laws
+> On average an SFI MOOC is 10 weeks long, with 1 unit per week.  Each unit is made up of roughly six-ten subunits.  Most of the subunits consists of 1 to 3 video segments (ideally less than 10 minutes long), exercises (if appropriate) a quiz, and quiz solutions (in text or video form).  The last subunits may not have video, instead having a homework assignment and homework solution, and an end of unit test. As an example of how a course is structured see the outline for the Introduction to Complexity MOOC.
 
-### Financial markets
-Lot's of previous work by Doyne and co-conspirators...
+## Course Outline
 
-* SFI Stock market 
-* Expectations formation processes
+### Lecture 1: Introduction to Complexity Economics
+We want to highlight the frontier research (hopefully in a way the will make it digestible to second year undergraduates).
 
-### Growth and Innovation
+Might make sense to have the following sub-units:
+Introductory video providing clear explanation of what complexity economics is (and what it isn’t). We will want to define key themes that will run throughout the course as well as terms and definitions (i.e., what is equilibrium, etc).  A constructive critique of the mainstream approach to economics.
 
-* Increasing returns and path dependence (B. Arthur)
-* Contrast complexity approach with Solow model.
+* Video on the scientific method and how it differs in physics and economics.
+* Primer on power laws.
+* Primer on dynamical systems.
+* Primer on basic network theory.
+* Primer on use of Jupyter notebooks in the cloud (include pointers to instructions for installing software including on where to go to learn more about best-practices for scientific computing; no support for software install will be given!).
 
-### Businesss Cycles
-For me, key papers in business cycles are...
+Also we will need to leave time to cover usual course logistics.
 
-* X. Gabaix, *Granular origins of aggregate fluctuations.*
-* D. Acemoglu et al, *Network origins of aggregate fluctuations.*
+# Lecture 2: Networks
+Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API.
 
-...these papers are too technical for our target audience.  Can we find a way to simplify the presentation of the key ingredients?
+**Can we tie in what we are doing in this lecture to the other Complexity Explorer MOOC on Dynamics of Complex Networks?**
 
-Possible ties to older business cycles literature. Models with "Predator-prey" dynamics.
+# Lecture 3: Business Cycles
+Key idea: business cycles are fundamentally endogenous phenomena and are not driven by exogenous shocks as is typically (but not always!) assumed in mainstream approaches.
+
+# Lectures 4 and 5: Growth and Innovation
+Will use the Solow growth model as point of departure.  Will need to explain the basic idea behind the model to non-economics audience.  Solow model can be used to motivate the importance of explicitly modeling the process of technological innovation.
+
+Evolutionary view of technological progress. See W. Brian Arthur’s Nature of Technology.  We should ask Brian if he would be interested in giving some parts of lectures 4 and 5.
+
+# Lecture 6: Financial Markets
+This lecture will motivate the use of ABMs by covering two different ABMs of financial markets: SFI stock market (old) and Farmer, et al Leverage Causes Fat Tails and Clustered Volatility model (new).
+
+# Lecture 7: Experimental Economics
+Motivated by the work of Cars Hommes on experimental models of expectations formation. Will touch on use of “rules of thumb,” models of learning, etc.
+
+# Lecture 8: Game Theory
+Obvious ties with the mainstream literature.  Motivated by recent (and ongoing) work of Farmer & Galla.  Key idea: learning and convergence to “equilibrium”. When and under what circumstances do learning rules lead to a convergence to Nash-like equilibrium in games.
+
+# Lectures 9: Inequality
+Sugarscape-esque simulations to demonstrate conditions for skewed distributions of wealth.  Can be tied to Edgeworth Box diagrams.  Contrast the robustness of the first welfare theorem, with the fragility of the second welfare theorem.
+
+# 10: Overflow! 
+I expect that this lecturers will fill out once we start filling in lecturers 1-8…
+
+Topics that don’t seem to fit anywhere yet:
+
+Rob’s model of firms…
+Brian’s work on increasing returns to scale and path dependence.
+Need to figure out a way to incorporate ScalABM to some extent. Possibly have some web application running interesting model on AWS that students can interact. Fabulous opportunity to build user community…
+However, ScalABM is cutting edge research tool.  Pedagogically better to teach simulation and computation using Python a la Software Carpentry.  
+
+Lecture: DSGE vs. Complexity Economics
+A Beginner’s Guide to the DSGE Model
+Material for this lecture is heavily influenced by David Colander’s Macroeconomics (pg. 293).
+
+Start with the Bob Solow quote…
+
+[The DSGE model is] a model in which a single immortal consumer-worker-owner maximizes a perfectly conventional time-additive utility function over an infinite horizon, under perfect foresight or rational expectations, and in an institutional and technological environment that favors universal price-taking behavior.
+
+Discuss each of the following in turn…
+single immortal consumer-worker-owner
+perfectly conventional time-additive utility function
+perfect foresight or rational expectations
+universal price-taking behavior
+
+Generic policy implications of DSGE models…
+Ricardian Equivalence
+Time-Inconsistency/Credibility
+Lucas Critique
+
+Complexity Approach to Macro
+
+Consider simple variant of the Cobweb model that clearly demonstrates differences between standard macro mode, DSGE, and complex systems models.
+Standard macro model: Backward looking expectations
+DSGE model: rational expectations
+Complex systems models: smart people with less than perfect foresight
+
+
+## Additional teaching resources
+Leigh Tesfatsion’s excellent website.  We need to find a way to include more of her work into the course!!!!
+
 
 ### Inequality
 Sugscape-esque simulations to demonstrate conditions for skewed distributions of wealth.  Can be tied  to Edgeworth Box diagrams.  Contrast the robustness of the first welfare theorem, with the fragility of the second welfare theorem.
@@ -41,16 +100,3 @@ Tons of material to cover her...
 * Bounded rationality (H. Simon and descendents!)
 * Learning
 
-## Methods
-
-### ABM
-
-### Data Science/Machine Learning approaches
-
-### Networks
-
-### Dynamical Systems
-
-### Stochastic processes
-
-### Game Theory
