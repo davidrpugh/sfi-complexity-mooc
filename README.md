@@ -36,12 +36,12 @@ Our 10 youtube length segments...
 1. Basics of networks: should summarize relevant bits of the network literature and point interested students at the SFI MOOC on networks for more details.
 2. What are input-output networks, and why are they important.  Where do we find data on input output networks? How do we find the data we will use for this lecture.
 3. Traditional economics approach to IO networks focuses on equilibrium networks and is exemplified by recent Acemoglu et al papers. Focus on Acemoglu et al handbook chapter rather than their Econometrica and AER papers.
-4. Finish discussion of the Acemoglu et al approach.
+4. Solve for the equilibrium of the Acemgolu et al model using real world IO network data. Informally compare model predictions to data.
 5. Short quiz.
 6. Acemoglu et al model has no dynamics at all. Quick discussion of the literature on dynamics on networks.  
 7. Use the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) papers which extend the Acemoglu framework and explicitly model dynamics.
-8. More Bouchaud et al...
-9. Even more Bouchaud et al...
+8. Simulate the Bouchaud et al model(s) and informally compare to data.
+9. Compare contrast Acemoglu et al (equilibrium) with Bouchaud et al (dynamics).
 10. Short quiz.
 
 # Lecture 3: Business Cycles
