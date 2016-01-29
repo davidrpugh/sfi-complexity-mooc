@@ -25,7 +25,7 @@ Introductory video providing clear explanation of what complexity economics is (
 Also we will need to leave time to cover usual course logistics.
 
 # Lecture 2: Networks
-Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Do simpler alternatives exist? Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API.
+Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Do simpler alternatives exist? Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API. Another source  of IO network data is the [WIOD database](http://www.wiod.org/new_site/database/wiots.htm).
 
 **Can we tie in what we are doing in this lecture to the other Complexity Explorer MOOC on Dynamics of Complex Networks?**
 
@@ -51,7 +51,7 @@ Iterated Prisoner's dilemma tournament using code from Alan Isaac's [Simulating 
 # Lectures 9: Inequality
 Sugarscape-esque simulations to demonstrate conditions for skewed distributions of wealth.  Can be tied to Edgeworth Box diagrams.  Contrast the robustness of the first welfare theorem, with the fragility of the second welfare theorem.
 
-# 10: Overflow! 
+# 10: Overflow!
 I expect that this lecturers will fill out once we start filling in lecturers 1-8…
 
 Topics that don’t seem to fit anywhere yet:
