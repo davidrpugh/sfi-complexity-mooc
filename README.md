@@ -44,6 +44,8 @@ Our 10 youtube length segments...
 9. Compare contrast Acemoglu et al (equilibrium) with Bouchaud et al (dynamics).
 10. Short quiz.
 
+Additional applications of networks in complexity economics can be found on Prof. Leigh Tesfatsion's [website](http://www2.econ.iastate.edu/tesfatsi/anetwork.htm).
+
 # Lecture 3: Business Cycles
 Key idea: business cycles are fundamentally endogenous phenomena and are not driven by exogenous shocks as is typically (but not always!) assumed in mainstream approaches.  Models of "Predator-prey" dynamics.
 
