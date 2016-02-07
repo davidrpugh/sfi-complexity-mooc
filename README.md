@@ -18,13 +18,29 @@ Introductory video providing clear explanation of what complexity economics is (
 
 * Video on the scientific method and how it differs in physics and economics.
 * Primer on power laws.
-* Primer on dynamical systems.
+* Basics of non-linear dynamics: should summarize relevant bits of the dynamical systems literature and point interested students at the SFI MOOC on non-linear dynamics and chaos for more details.
 * Primer on basic network theory.
 * Primer on use of Jupyter notebooks in the cloud (include pointers to instructions for installing software including on where to go to learn more about [best-practices for scientific computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745); no support for software install will be given!).
 
 Also we will need to leave time to cover usual course logistics.
 
-# Lecture 2: Networks
+# Lecture 2: Cobweb Models, Expectations, and Learning
+**Key ideas: Illustrate the important role of expectations in economic models. Distinguish between extreme forms of expectations (i.e., naive vs rational) and stress that real expectations formation rules fall somewhere in between. Explain the "Lucas Critique" and discuss how various learning mechanisms can be used to address the critique.**
+
+Our 10 youtube length segments...
+
+1. Discuss the basic idea behind the cobweb model. Explain the basic building blocks of the classic Brock and Hommes' [Rational Route to Randomness](http://www.ssc.wisc.edu/~wbrock/rp457a.pdf). This model provides a nice framework that can be easily extended to incorporate some of the ingredients of Car's more recent work.
+2. Describe different rules for forming expectations in the cobweb model.  Expectation formations rules are predictor functions that take a time series of prices and return a predicted value for a future price.  Contrast various expectations formation rules with rational expectations.
+3. Simulate the Brock and Hommes model with homogenous beliefs (i.e., all agents use the same expectation formation rule)! Under what conditions does one get limit cycles? Chaotic dynamics? Equilibria? Brock and Hommes model with homogenous beliefs is *very* close to the earlier Hommes model in [Dynamics of the cobweb model with adaptive expectations and non-linear supply and demand](http://www.parisschoolofeconomics.eu/docs/guesnerie-roger/hommes94.pdf).
+4. Simulate the Brock and Hommes model with heterogenous beliefs (i.e., agents use different expectation formation rules!). Under what conditions does one get limit cycles? Chaotic dynamics? Equilibria?
+5. Short quiz.
+6. **Cars Hommes contribution: Lecture on experimental evidence on how real market participants form expectations.  Need to discuss this with Cars ASAP!**
+7. Explicitly make the link between simulation and computation and experimental work by use simulations to replicate some of the experimental evidence that Cars discusses in his lecture.
+8. Describe the Lucas Critique.
+9. Discuss (debate) how (whether) various learning mechanisms discussed in this lecture address the Lucas Critique.
+10. Short quiz.
+
+# Lecture 3: Networks
 **Key ideas: Networks are pervasive in real world economies. Depending on underlying network topology, networks can either amplify or dampen idiosyncratic shocks. This has important policy implications. Traditional economics approach focuses on "equilibrium" and (mostly ignores) dynamics, complexity economics approach explicitly models dynamics and "equilibrium", if it exists, is a secondary consideration.**
 
 Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Do simpler alternatives exist? Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API. Another source  of IO network data is the [WIOD database](http://www.wiod.org/new_site/database/wiots.htm).
@@ -57,9 +73,6 @@ Evolutionary view of technological progress. See W. Brian Arthur’s Nature of T
 # Lecture 6: Financial Markets
 This lecture will motivate the use of ABMs by covering two different ABMs of financial markets: SFI stock market (old) and Farmer, et al Leverage Causes Fat Tails and Clustered Volatility model (new).
 
-# Lecture 7: Experimental Economics
-Motivated by the work of Cars Hommes on experimental models of expectations formation. Will touch on use of “rules of thumb,” models of learning, etc.
-
 # Lecture 8: Game Theory
 Obvious ties with the mainstream literature.  Motivated by recent (and ongoing) work of Farmer & Galla.  Key idea: learning and convergence to “equilibrium”. When and under what circumstances do learning rules lead to a convergence to Nash-like equilibrium in games.
 
@@ -81,29 +94,6 @@ However, ScalABM is cutting edge research tool.  Pedagogically better to teach s
 Lecture: DSGE vs. Complexity Economics
 A Beginner’s Guide to the DSGE Model
 Material for this lecture is heavily influenced by David Colander’s Macroeconomics (pg. 293).
-
-Start with the Bob Solow quote…
-
-[The DSGE model is] a model in which a single immortal consumer-worker-owner maximizes a perfectly conventional time-additive utility function over an infinite horizon, under perfect foresight or rational expectations, and in an institutional and technological environment that favors universal price-taking behavior.
-
-Discuss each of the following in turn…
-single immortal consumer-worker-owner
-perfectly conventional time-additive utility function
-perfect foresight or rational expectations
-universal price-taking behavior
-
-Generic policy implications of DSGE models…
-Ricardian Equivalence
-Time-Inconsistency/Credibility
-Lucas Critique
-
-Complexity Approach to Macro
-
-Consider simple variant of the Cobweb model that clearly demonstrates differences between standard macro mode, DSGE, and complex systems models.
-Standard macro model: Backward looking expectations
-DSGE model: rational expectations
-Complex systems models: smart people with less than perfect foresight
-
 
 ## Additional teaching resources
 Leigh Tesfatsion’s [excellent website](http://www2.econ.iastate.edu/tesfatsi/ace.htm).  We need to find a way to include more of her work into the course!!!!
