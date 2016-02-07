@@ -25,9 +25,26 @@ Introductory video providing clear explanation of what complexity economics is (
 Also we will need to leave time to cover usual course logistics.
 
 # Lecture 2: Networks
+**Key ideas: Networks are pervasive in real world economies. Depending on underlying network topology, networks can either amplify or dampen idiosyncratic shocks. This has important policy implications. Traditional economics approach focuses on "equilibrium" and (mostly ignores) dynamics, complexity economics approach explicitly models dynamics and "equilibrium", if it exists, is a secondary consideration.**
+
 Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Do simpler alternatives exist? Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API. Another source  of IO network data is the [WIOD database](http://www.wiod.org/new_site/database/wiots.htm).
 
-**Can we tie in what we are doing in this lecture to the other Complexity Explorer MOOC on Dynamics of Complex Networks?**
+Can we tie in what we are doing in this lecture to the other Complexity Explorer MOOC on Dynamics of Complex Networks?
+
+Our 10 youtube length segments...
+
+1. Basics of networks: should summarize relevant bits of the network literature and point interested students at the SFI MOOC on networks for more details.
+2. What are input-output networks, and why are they important.  Where do we find data on input output networks? How do we find the data we will use for this lecture.
+3. Traditional economics approach to IO networks focuses on equilibrium networks and is exemplified by recent Acemoglu et al papers. Focus on Acemoglu et al handbook chapter rather than their Econometrica and AER papers.
+4. Solve for the equilibrium of the Acemgolu et al model using real world IO network data. Informally compare model predictions to data.
+5. Short quiz.
+6. Acemoglu et al model has no dynamics at all. Quick discussion of the literature on dynamics on networks.  
+7. Use the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) papers which extend the Acemoglu framework and explicitly model dynamics.
+8. Simulate the Bouchaud et al model(s) and informally compare to data.
+9. Compare contrast Acemoglu et al (equilibrium) with Bouchaud et al (dynamics).
+10. Short quiz.
+
+Additional applications of networks in complexity economics can be found on Prof. Leigh Tesfatsion's [website](http://www2.econ.iastate.edu/tesfatsi/anetwork.htm).
 
 # Lecture 3: Business Cycles
 Key idea: business cycles are fundamentally endogenous phenomena and are not driven by exogenous shocks as is typically (but not always!) assumed in mainstream approaches.  Models of "Predator-prey" dynamics.
