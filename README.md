@@ -17,17 +17,15 @@ Might make sense to have the following sub-units:
 Introductory video providing clear explanation of what complexity economics is (and what it isn’t). We will want to define key themes that will run throughout the course as well as terms and definitions (i.e., what is equilibrium, etc).  A constructive critique of the mainstream approach to economics.
 
 * Video on the scientific method and how it differs in physics and economics.
-* Primer on power laws.
-* Basics of non-linear dynamics: should summarize relevant bits of the dynamical systems literature and point interested students at the SFI MOOC on non-linear dynamics and chaos for more details.
-* Primer on basic network theory.
+* Discussion of pre-requisites with pointers to other relevant SFI MOOCS as well as third-party materials.
 * Primer on use of Jupyter notebooks in the cloud (include pointers to instructions for installing software including on where to go to learn more about [best-practices for scientific computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745); no support for software install will be given!).
 
 Also we will need to leave time to cover usual course logistics.
 
 # Lecture 2: Cobweb Models, Expectations, and Learning
-**Key ideas: Illustrate the important role of expectations in economic models. Distinguish between extreme forms of expectations (i.e., naive vs rational) and stress that real expectations formation rules fall somewhere in between. Explain the "Lucas Critique" and discuss how various learning mechanisms can be used to address the critique.**
+**Key ideas: Illustrate the important role of expectations in economic models. Distinguish between extreme forms of expectations (i.e., naive vs rational) and stress that real expectations formation rules fall somewhere in between.**
 
-Our 10 youtube length segments...
+Our YouTube length segments...
 
 1. Discuss the basic idea behind the cobweb model. Explain the basic building blocks of the classic Brock and Hommes' [Rational Route to Randomness](http://www.ssc.wisc.edu/~wbrock/rp457a.pdf). This model provides a nice framework that can be easily extended to incorporate some of the ingredients of Car's more recent work.
 2. Describe different rules for forming expectations in the cobweb model.  Expectation formations rules are predictor functions that take a time series of prices and return a predicted value for a future price.  Contrast various expectations formation rules with rational expectations.
@@ -36,9 +34,7 @@ Our 10 youtube length segments...
 5. Short quiz.
 6. **Cars Hommes contribution: Lecture on experimental evidence on how real market participants form expectations.  Need to discuss this with Cars ASAP!**
 7. Explicitly make the link between simulation and computation and experimental work by use simulations to replicate some of the experimental evidence that Cars discusses in his lecture.
-8. Describe the Lucas Critique.
-9. Discuss (debate) how (whether) various learning mechanisms discussed in this lecture address the Lucas Critique.
-10. Short quiz.
+8. Short quiz.
 
 # Lecture 3: Networks
 **Key ideas: Networks are pervasive in real world economies. Depending on underlying network topology, networks can either amplify or dampen idiosyncratic shocks. This has important policy implications. Traditional economics approach focuses on "equilibrium" and (mostly ignores) dynamics, complexity economics approach explicitly models dynamics and "equilibrium", if it exists, is a secondary consideration.**
