@@ -55,13 +55,13 @@ Lecture draws heavily from Allen Wilhite's [Economic Activity on Fixed Networks]
 Again, this lesson should summarize relevant bits of the network literature and point interested students at the SFI MOOC on networks for more details.
 2. Short quiz.
 3. Coordination and Cooperation on Networks: In this section we describe a few canonical games (i.e., coordination games and the prisoner's dilemma) that agents might play on some network.  Using these rules, we simulate agent-based computational models in which agents play games on each of the seven networks of interest. We show how to use Monte Carlo experiments (for each network and updating routine) to derive "typical" outcomes for each model.
-3. Short quiz.
+3. Homework assignment.
 4. Exchange on Networks: This section considers exchange when it is shaped
 by a network. The pure exchange economy created here differs from
 the games played above because agents do not alter their behavior based on a neighbor’s behavior. Agents simply exchange if they find it beneficial, and prices are set by an exogenous formula known by all. Thus the economic problem is one of matching voluntary traders. Our primary interest is how the topology of a network affects the efficiency of exchange.
-5. Short quiz.  
+5. Homework assignment.  
 6. Conclusions: Summary of key ideas and pointers to additional (more advanced material). In particular, further applications of networks in complexity economics can be found on Prof. Leigh Tesfatsion's [website](http://www2.econ.iastate.edu/tesfatsi/anetwork.htm). Other resources include Matt Jackson's book and Sanjeev Goyal's book. Cutting edge applications of networks in mainstream macroeconomics see Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423).
-7. Short quiz.
+7. End of unit test.
 
 ## Lecture 3: Business Cycles
 Key idea: business cycles are fundamentally endogenous phenomena and are not driven by exogenous shocks as is typically (but not always!) assumed in mainstream approaches.  Models of "Predator-prey" dynamics.
