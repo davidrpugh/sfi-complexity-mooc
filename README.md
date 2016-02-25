@@ -66,8 +66,9 @@ Will use the Solow growth model as point of departure for lecture 4  Will need t
 
 Evolutionary view of technological progress. See W. Brian Arthur’s Nature of Technology.  We should ask Brian if he would be interested in giving some parts of lectures 4 and 5.
 
-# Lecture 6: Financial Markets
+# Lectures 6 and 7: Financial Markets
 This lecture will motivate the use of ABMs by covering two different ABMs of financial markets: SFI stock market (old) and Farmer, et al Leverage Causes Fat Tails and Clustered Volatility model (new).
+
 
 # Lecture 8: Game Theory
 Obvious ties with the mainstream literature.  Motivated by recent (and ongoing) work of Farmer & Galla.  Key idea: learning and convergence to “equilibrium”. When and under what circumstances do learning rules lead to a convergence to Nash-like equilibrium in games.
@@ -86,10 +87,6 @@ Rob’s model of firms…
 Brian’s work on increasing returns to scale and path dependence.
 Need to figure out a way to incorporate ScalABM to some extent. Possibly have some web application running interesting model on AWS that students can interact. Fabulous opportunity to build user community…
 However, ScalABM is cutting edge research tool.  Pedagogically better to teach simulation and computation using Python a la Software Carpentry.  
-
-Lecture: DSGE vs. Complexity Economics
-A Beginner’s Guide to the DSGE Model
-Material for this lecture is heavily influenced by David Colander’s Macroeconomics (pg. 293).
 
 ## Additional teaching resources
 Leigh Tesfatsion’s [excellent website](http://www2.econ.iastate.edu/tesfatsi/ace.htm).  We need to find a way to include more of her work into the course!!!!
