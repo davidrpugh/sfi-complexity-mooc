@@ -37,26 +37,34 @@ Our YouTube length segments...
 8. Short quiz.
 
 # Lecture 3: Networks
-**Key ideas: Networks are pervasive in real world economies. Depending on underlying network topology, networks can either amplify or dampen idiosyncratic shocks. This has important policy implications. Traditional economics approach focuses on "equilibrium" and (mostly ignores) dynamics, complexity economics approach explicitly models dynamics and "equilibrium", if it exists, is a secondary consideration.**
+**Summary: Majority of economic interactions typically involves a very small minority of the population. The tendency to focus our attention on a few individuals or activities is an attribute of the real-world that is typically omitted from the standard characterization of markets in economics. In standard models of markets, agents interact impersonally and efficiently with
+countless other faceless agents. This lecture looks into the consequences of including explicit connections between agents in economic decision making. Agents are assumed to occupy the nodes of a network and to interact exclusively with agents to whom they are directly linked. As motivating examples we will look at both the evolution of game strategies and the effectiveness of exchange as the topology of the underlying network is altered. Conclusion: networks matter, in particular, changes in a network’s structure can alter both the steady-state attributes of an economy as well as its dynamics.**
 
-Start with branch of complexity economics that has been the most successful at impacting mainstream economics.  Focus on Input-Output networks. Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423) which focus on equilibrium analysis, and the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) which focuses on underlying dynamics would be natural points of departure but are perhaps too advanced. Do simpler alternatives exist? Can make use of [pyBEA](https://github.com/davidrpugh/pyBEA) to grab data on U.S. input-output networks directly from the BEA data API. Another source  of IO network data is the [WIOD database](http://www.wiod.org/new_site/database/wiots.htm).
+Lecture draws heavily from Allen Wilhite's [Economic Activity on Fixed Networks](http://www.sciencedirect.com/science/article/pii/S1574002105020204) (Chapter 20 of the Handbook of Computational Economics, Vol 2).
 
-Can we tie in what we are doing in this lecture to the other Complexity Explorer MOOC on Dynamics of Complex Networks?
+## 10 YouTube length segments...
 
-Our 10 youtube length segments...
-
-1. Basics of networks: should summarize relevant bits of the network literature and point interested students at the SFI MOOC on networks for more details.
-2. What are input-output networks, and why are they important.  Where do we find data on input output networks? How do we find the data we will use for this lecture.
-3. Traditional economics approach to IO networks focuses on equilibrium networks and is exemplified by recent Acemoglu et al papers. Focus on Acemoglu et al handbook chapter rather than their Econometrica and AER papers.
-4. Solve for the equilibrium of the Acemgolu et al model using real world IO network data. Informally compare model predictions to data.
-5. Short quiz.
-6. Acemoglu et al model has no dynamics at all. Quick discussion of the literature on dynamics on networks.  
-7. Use the [Bouchaud et al paper](http://arxiv.org/pdf/1406.5022.pdf) papers which extend the Acemoglu framework and explicitly model dynamics.
-8. Simulate the Bouchaud et al model(s) and informally compare to data.
-9. Compare contrast Acemoglu et al (equilibrium) with Bouchaud et al (dynamics).
-10. Short quiz.
+1. Some notable networks: Provide basic concepts and terminology (i.e., graph, node/vertex, edge, directed vs. undirected, weighted vs. unweighted, etc). Discuss the following classes of networks that show up repeatedly in the literature:
+* The complete network
+* The star
+* The ring
+* The grid
+* The tree
+* Small-worlds
+* Power networks
+Again, this lesson should summarize relevant bits of the network literature and point interested students at the SFI MOOC on networks for more details.
+2. Short quiz.
+3. Coordination and Cooperation on Networks: In this section we describe a few canonical games (i.e., coordination games and the prisoner's dilemma) that agents might play on some network.  Using these rules, we simulate agent-based computational models in which agents play games on each of the seven networks of interest. We show how to use Monte Carlo experiments (for each network and updating routine) to derive "typical" outcomes for each model.
+3. Short quiz.
+4. Exchange on Networks: This section considers exchange when it is shaped
+by a network. The pure exchange economy created here differs fundamentally from
+the games played above because agents do not alter their behavior based on a neighbor’s behavior. Agents simply exchange if they find it beneficial, and prices are set by an exogenous formula known by all. Thus the economic problem is one of matching voluntary traders. Our primary interest is how the topology of a network affects the efficiency of exchange.
+5. Short quiz.  
+6. Conclusions.
+7. Short quiz.
 
 Additional applications of networks in complexity economics can be found on Prof. Leigh Tesfatsion's [website](http://www2.econ.iastate.edu/tesfatsi/anetwork.htm).
+Other resources include Matt Jackson's book and Sanjeev Goyal's book. Cutting edge applications of networks in mainstream macroeconomics see Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423).
 
 # Lecture 3: Business Cycles
 Key idea: business cycles are fundamentally endogenous phenomena and are not driven by exogenous shocks as is typically (but not always!) assumed in mainstream approaches.  Models of "Predator-prey" dynamics.
