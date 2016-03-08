@@ -1,4 +1,4 @@
-﻿[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/kronrod/sfi-complexity-mooc)
+﻿[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/davidrpugh/sfi-complexity-mooc)
 
 # SFI Complexity Economics MOOC
 
