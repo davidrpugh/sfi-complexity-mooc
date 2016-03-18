@@ -60,7 +60,7 @@ Again, this lesson should summarize relevant bits of the network literature and 
 by a network. The pure exchange economy created here differs from
 the games played above because agents do not alter their behavior based on a neighbor’s behavior. Agents simply exchange if they find it beneficial, and prices are set by an exogenous formula known by all. Thus the economic problem is one of matching voluntary traders. Our primary interest is how the topology of a network affects the efficiency of exchange.
 5. Homework assignment.  
-6. Conclusions: Summary of key ideas and pointers to additional (more advanced material). In particular, further applications of networks in complexity economics can be found on Prof. Leigh Tesfatsion's [website](http://www2.econ.iastate.edu/tesfatsi/anetwork.htm). Other resources include Matt Jackson's book and Sanjeev Goyal's book. Cutting edge applications of networks in mainstream macroeconomics see Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423).
+6. Conclusions: Summary of key ideas and pointers to additional (more advanced material). In particular, further applications of networks in complexity economics can be found on Prof. Leigh Tesfatsion's [website](http://www2.econ.iastate.edu/tesfatsi/anetwork.htm). Other resources include Matt Jackson's book and Sanjeev Goyal's book. For recent applications of networks in mainstream macroeconomics see Acemoglu et al's [Network Origins of Aggregate Fluctuations](http://economics.mit.edu/files/8135) and [Networks, Shocks, and Systemic Risk](http://economics.mit.edu/files/10423).
 7. End of unit test.
 
 ## Lecture 3: Business Cycles
